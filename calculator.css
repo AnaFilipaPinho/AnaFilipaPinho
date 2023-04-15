@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #13223D;
+    margin: 15px;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding-top: 5px;
+    max-width: 10rem;
+}
+.keys1 .keys2, .keys3, .keys4{
+    background-color: #13223D;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.display{
+    display: flex;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    justify-content: end;
+    font-size: 25px;
+    color: #057E18;
+}
+
+button{
+    border: 1px white;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    margin: 3px;
+    font-size: 15px;
+}
+
+.operator{
+    color:  #343AEE;
+}
+
+.number, .key--equal{
+    color: #ED7A30;
+}
